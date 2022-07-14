@@ -1,0 +1,384 @@
+@font-face {
+    font-family: "Vetrino", sans-serif;
+    font-family: "GG Wolfram", sans-serif;
+    src: url(../fonts/Vetrino.otf);
+    src: url(../fonts/GG\ Wolfram.otf);
+}
+
+
+body {
+    margin: 0% auto;
+    font-family: "Vetrino", sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.line1 {
+    background-color: #000;
+    max-width: 100%;
+    height: 100px;
+}
+
+.line2 {
+    background-color: #000;
+    max-width: 100%;
+    height: 25px;
+    position: relative;
+    top: -112px;
+}
+
+.line3 {
+    margin-top: 50px;
+    background-color: #000;
+    max-width: 100%;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    display: flex;
+}
+
+.img-free {
+    background-image: url(../img/free.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 212px;
+    width: 277px;
+    position: relative;
+    top: -89px;
+}
+
+.menu li {    
+    font-size: 27.11px;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 37px 0;
+}
+
+.menu-elem {
+    color: #000;
+    margin-right: 63px;
+    padding: 5px 15px;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.txt {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "a b c "
+        "d b j"
+        "d f j";
+    grid-gap: 20px;
+}
+
+.grid-item {
+    padding: 0;
+    margin: 0;
+}
+
+.grid-item {
+    padding: 0;
+    margin: 0;
+}
+
+.grid-item1 {
+    background-image: url(../img/portfolio_1.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    grid-area: a;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+
+}
+.grid-item2 {
+    background-image: url(../img/portfolio_2.png);
+    background-repeat: no-repeat;
+    height: 474px;
+    grid-area: b;
+    position: relative;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+
+
+.grid-item3 {
+    background-image: url(../img/portfolio_3.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    grid-area: c;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+
+}
+.grid-item4 {
+    background-image: url(../img/portfolio_4.png);
+    background-repeat: no-repeat;
+    height: 472px;
+    grid-area: d;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+
+}
+.grid-item5 {
+    background-image: url(../img/portfolio_5.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    grid-area: f;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+
+}
+
+.grid-item6 {
+    background-image: url(../img/portfolio_6.png);
+    background-repeat: no-repeat;
+    height: 472px;
+    grid-area: j;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+
+
+
+.menu-elem:hover {
+    color: #fff;
+    background-color: #dba91f;
+    border: 0px solid #dba91f;
+    transition: 0.3s;
+}
+
+.page-form-bg {
+    background-image: url(../img/backgroundsix.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 700px;
+    margin-bottom: -75px;
+}
+
+.pg-img {
+    background-image: url(../img/st.png);
+    background-repeat: no-repeat;
+    height: 361px;
+    top: 243px;
+    left: 403px;
+    position: relative;
+}
+
+.pg-form-flex {
+    display: flex;
+}
+
+.pg-form-flex>div {
+    flex-basis: 55%;
+}
+
+.pg-form-h2 {
+    font-size: 50px;
+    position: relative;
+    width: 520px;
+    top: 71px;
+    left: -156px;
+    letter-spacing: -1.5px;
+}
+
+.form {
+    width: 300px;
+    position: relative;
+    top: 20px;
+
+}
+
+.form-elem {
+    border: 2px solid #dce4ec;
+    border-radius: 30px;
+    margin-bottom: 26px;
+}
+
+.form>input {
+    font-family: "GG Wolfram", sans-serif;
+    padding: 23px 297px 23px 36px;
+    font-size: 14px;
+}
+
+.form-messange {
+    padding: 21px 154px;
+    border: 2px solid #dce4ec;
+    border-radius: 30px;
+    margin-bottom: 26px;
+}
+
+.form>textarea {
+    font-family: "GG Wolfram", sans-serif;
+    padding: 23px 299px 98px 37px;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.btn-primary {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ff810b;
+    padding: 21px 37px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    border: 1px solid #ff810b;
+    transition: 0.3s;
+}
+
+/* псевдокласс */
+.btn-primary:hover {
+    color: #ff810b;
+    background-color: #fff;
+}
+
+.btn-choosepl {
+    padding: 21px 62px;
+}
+
+.footer {
+    background-color: #000;
+    width: 100%;
+    height: 93px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        max-width: 100%;
+        width: auto;
+        background: #fff !important;
+        }
+
+        .grid-item1 {
+
+            background-size: contain;
+        }
+        .grid-item2 {
+
+            background-size: contain;
+        }
+        .grid-item3 {
+
+            background-size: contain;
+        }
+        .grid-item4 {
+            background-size: contain;
+        }
+
+        .grid-item5 {
+            background-size: contain;
+        }
+        .grid-item6 {
+            background-size: contain;
+            
+        }
+
+        .line1 {
+            max-width: 341%;
+        }
+    
+        .line2 {
+            max-width: 341%;
+        }
+    
+        .line3 {
+            top: 20px;
+            max-width: 341%;
+        }
+
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+    min-width: 100%;
+    width: auto;
+    background: #fff !important;
+    }
+
+    .line1 {
+        width: 341%;
+    }
+
+    .line2 {
+        width: 341%;
+    }
+
+    .line3 {
+        top: 20px;
+        width: 341%;
+    }
+
+    .menu {
+        padding: 7% 100%;
+    }
+
+    .grid {
+        width: 249%;
+        margin-left: 50%;
+    }
+
+    .grid-item1 {
+        height: 270px;
+    }
+
+    .grid-item2 {
+        height: 270px;
+    }
+
+    .grid-item3 {
+        height: 270px;
+    }
+
+    .grid-item4 {
+        height: 270px;
+    }
+
+    .grid-item5 {
+        height: 270px;
+    }
+
+    .grid-item6 {
+        height: 270px;
+    }
+
+    .pg-form-flex {
+        justify-content: center;
+    }
+    .h1-txt {
+        text-align: center;
+    }
+
+    .standart-txt {
+        text-align: center;
+    }
+
+    .footer {
+        width: 341%;
+    }
+
+
+
+}
